@@ -15,7 +15,7 @@ sections:
       - Lorem ipsum
 
       - dolor sit amet
-    actions: []
+    actions: ['action']
     type: hero_section
 seo:
   title: ''
