@@ -18,7 +18,7 @@ export default class HeroSection extends React.Component {
                     {title && <h1 className="hero__title">{title}</h1>}
                     {content && (
                         <div className="hero__body text-block">
-                            {markdownify(content)}
+                           prefix {markdownify(content)}
                         </div>
                     )}
                     {!_.isEmpty(actions) && (
